@@ -18,6 +18,6 @@ Introduction to Scripting in Unity!
 
 ### Assignment #1 Introduction
 [Assignment 1](https://docs.google.com/document/d/1aE7_4Rd-JdODe0GmwTefCU_zZ3wYfTRwlclaeilCM78/edit?usp=sharing)
-Due before class on Oct. 14th
+- Due before class on Oct. 14th
 
 #### Resources
