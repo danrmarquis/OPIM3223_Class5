@@ -29,10 +29,11 @@ public class PlayerMovement : MonoBehaviour
     //difference between Update and FixedUpdate, updates for a fixed amount of frames
     void FixedUpdate()
     {
-        for (int i = 0; i< inputKeys.Length; i++)
+        for (int i = 0; i < inputKeys.Length; i++)
         {
             var currentKey = inputKeys[i];
 
+            if(Input.GetKey(currentKey))
             {
                 Vector3 move = keyDirections[i] * acceleration * Time.deltaTime;
                 //Creates new Vector3 variable called "move"
