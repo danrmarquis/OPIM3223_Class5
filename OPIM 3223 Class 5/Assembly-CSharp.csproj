@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CameraRig.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/soslo/OneDrive/Documents/GitHub/OPIM3223_Class5/OPIM 3223 Class 5/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
