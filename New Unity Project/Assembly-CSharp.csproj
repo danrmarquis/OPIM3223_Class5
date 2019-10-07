@@ -61,8 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraRig.cs" />
-    <Compile Include="Assets\Scripts\Enemy Movement\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Enemy Movement\ENEMY.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Player\Playershooting.cs" />
+    <Compile Include="Assets\Scripts\Projectile.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/nathan/Documents/GitHub/OPIM3223_Class5/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

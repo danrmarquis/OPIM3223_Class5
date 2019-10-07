@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy Movement/NewBehaviourScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Projectile.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="36" Column="46" />
-      <File FileName="Assets/Scripts/CameraRig.cs" Line="27" Column="6" />
-      <File FileName="Assets/Scripts/Enemy Movement/NewBehaviourScript.cs" Line="14" Column="14" />
+      <File FileName="Assets/Scripts/Player/PlayerMovement.cs" Line="69" Column="4" />
+      <File FileName="Assets/Scripts/CameraRig.cs" Line="29" Column="1" />
+      <File FileName="Assets/Scripts/Enemy Movement/ENEMY.cs" Line="33" Column="23" />
+      <File FileName="Assets/Scripts/Player/Player.cs" Line="9" Column="42" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="41" Column="34" />
+      <File FileName="Assets/Scripts/Player/Playershooting.cs" Line="28" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,10 +14,9 @@
           <Node name="New Unity Project" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Enemy Movement" expanded="True">
-                  <Node name="NewBehaviourScript.cs" selected="True" />
-                </Node>
+                <Node name="Enemy Movement" expanded="True" />
                 <Node name="Player" expanded="True" />
+                <Node name="Projectile.cs" selected="True" />
               </Node>
             </Node>
           </Node>

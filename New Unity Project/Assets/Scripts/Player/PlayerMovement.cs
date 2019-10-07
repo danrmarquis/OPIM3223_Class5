@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     private void OnCollisionStay()
     {
         isgrounded = true;
-        
+
     }
     // Update is called once per frame
     void FixedUpdate()
@@ -35,14 +35,14 @@ public class PlayerMovement : MonoBehaviour
             if (Input.GetKey(currentKey))
                 if (Input.GetKey(currentKey))
 
-            { 
+                {
 
-                Vector3 move = keyDirections[i] * acceleration * Time.deltaTime;
-                movePlayer(move);
-            }
-            if (Input.GetKey(KeyCode.Space)&& isgrounded)
+                    Vector3 move = keyDirections[i] * acceleration * Time.deltaTime;
+                    movePlayer(move);
+                }
+            if (Input.GetKey(KeyCode.Space) && isgrounded)
             {
-                rigidBody.AddForce(Vector3.up * jumpspeed*jumpheight);
+                rigidBody.AddForce(Vector3.up * jumpspeed * jumpheight);
                 isgrounded = false;
 
             }
@@ -54,13 +54,16 @@ public class PlayerMovement : MonoBehaviour
 
     void movePlayer(Vector3 movement)
     {
-        if (rigidBody.velocity.magnitude * acceleration > maxSpeed) 
+        if (rigidBody.velocity.magnitude * acceleration > maxSpeed)
         {
             rigidBody.AddForce(movement * -1);
 
         }
-        else {
+        else
+        {
             rigidBody.AddForce(movement);
         }
+
     }
 }
+   
